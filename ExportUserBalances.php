@@ -14,7 +14,7 @@ class ExportUserBalances extends Command
     public function handle()
 {
     $fetchToken = 'c9d6w2uituto1cl8qkcbc890squj66jj'; // for fetching balance
-    $purchaseToken = '12589|9S2tfmDr5bHOkB0MqUrxYgdAw6sVHD7nCkERJGXW2ac5206f'; // for posting purchase
+    $purchaseToken = '12592|bRaI8fDQQRGcvcT65yFH4UGINZ8FruON71qy09ru141ef84f'; // for posting purchase
 
     $fetchApiUrl = 'https://admin.js.qa/rest/V1/wac/customer/info';
     $purchaseApiBase = 'https://gocml861g1.execute-api.eu-north-1.amazonaws.com/prod/partner/cards';
